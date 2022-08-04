@@ -1,0 +1,5 @@
+G:\spring-boot-mybatis-sample-master\src\main\java\sample\mybatis\Application.java
+G:\spring-boot-mybatis-sample-master\src\main\java\sample\mybatis\domain\UserFeedback.java
+G:\spring-boot-mybatis-sample-master\src\main\java\sample\mybatis\service\UserFeedbackService.java
+G:\spring-boot-mybatis-sample-master\src\main\java\sample\mybatis\web\UserFeedbackController.java
+G:\spring-boot-mybatis-sample-master\src\main\java\sample\mybatis\mappers\UserFeedbackMapper.java

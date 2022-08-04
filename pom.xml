@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+  <modelVersion>4.0.0</modelVersion>  
+  <groupId>mydemo</groupId>  
+  <artifactId>spring-boot-mybatis-sample</artifactId>
+  <version>1.0.0-SNAPSHOT</version>  
+  <name>spring boot mybatis sample</name>  
+  <parent> 
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-parent</artifactId>  
+    <version>1.4.3.RELEASE</version> 
+  </parent>  
+  <dependencies> 
+    <dependency> 
+      <groupId>org.springframework.boot</groupId>  
+      <artifactId>spring-boot-starter-web</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>mysql</groupId>  
+      <artifactId>mysql-connector-java</artifactId>  
+      <version>5.1.47</version> 
+    </dependency>  
+    <dependency> 
+      <groupId>org.springframework.boot</groupId>  
+      <artifactId>spring-boot-starter-test</artifactId>  
+      <scope>test</scope> 
+    </dependency>  
+    <dependency> 
+      <groupId>org.mybatis.spring.boot</groupId>  
+      <artifactId>mybatis-spring-boot-starter</artifactId>  
+      <version>2.1.1</version> 
+    </dependency> 
+  </dependencies>  
+  <build> 
+    <plugins> 
+      <plugin> 
+        <groupId>org.springframework.boot</groupId>  
+        <artifactId>spring-boot-maven-plugin</artifactId>  
+        <dependencies> 
+          <dependency> 
+            <groupId>org.springframework</groupId>  
+            <artifactId>springloaded</artifactId>  
+            <version>1.2.0.RELEASE</version> 
+          </dependency> 
+        </dependencies> 
+      </plugin>  
+      <plugin>
+        <groupId>com.microsoft.azure</groupId>
+        <artifactId>azure-webapp-maven-plugin</artifactId>
+        <version>2.2.0</version>
+        <configuration>
+          <schemaVersion>v2</schemaVersion>
+          <subscriptionId>fe3243a9-a5b6-4cee-b7b3-746489a12a3d</subscriptionId>
+          <resourceGroup>spring-boot-mybatis-sample-1659598207454-rg</resourceGroup>
+          <appName>spring-mybatis-1659598207454</appName>
+          <pricingTier>P1v2</pricingTier>
+          <region>centralus</region>
+          <runtime>
+            <os>Windows</os>
+            <javaVersion>Java 8</javaVersion>
+            <webContainer>Java SE</webContainer>
+          </runtime>
+          <deployment>
+            <resources>
+              <resource>
+                <directory>${project.basedir}/target</directory>
+                <includes>
+                  <include>*.jar</include>
+                </includes>
+              </resource>
+            </resources>
+          </deployment>
+        </configuration>
+      </plugin>
+    </plugins> 
+  </build> 
+</project>

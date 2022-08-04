@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://my-db-term-project.mysql.database.azure.com:3306/project?serverTimezone=UTC&useSSL=false
+    username: yang@my-db-term-project
+    password: Yylovemiku823645
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
