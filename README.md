@@ -1,6 +1,9 @@
 ## Description
 Author: Yang Ye
-This project is deployed on Azure.
+
+A part of MET_CS_601 Summer season term project.
+
+This project is about a spring-boot backend server deployed on Azure.
 
 ## Front-end vue project:
 https://github.com/w233w/cs601-term-project
