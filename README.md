@@ -22,7 +22,7 @@ password: YY_123456
 ## Detail
 This application offer two http request api. '/add' and '/list'. Both api required POST method.
 
-'/add' is used to data in to MySQL which take JSON of form input as input.
+'/add' is used to add data into MySQL which take a JSON of form input as input.
 
 '/list' is used to search database by input Json with only one key: 'username'. It will return JSON with all review made by that person.
 
