@@ -5,7 +5,7 @@
 
 A part of MET_CS_601 Summer season term project.
 
-This project is about a spring-boot backend app deployed on Azure. The app is connected to Azure MySQL server.
+This project is about a surper simple spring-boot back-end app deployed on Azure. The app is also connected to Azure MySQL server used to collect data.
 
 ## Server url
 https://spring-mybatis-1659598207454.azurewebsites.net/
@@ -21,7 +21,6 @@ password: YY_123456
 
 ![alt text](https://github.com/w233w/spring-boot-backend-for-project/blob/master/MySQL-sample.png?raw=true)
 
-
 ## Detail
 This application offer two http request api. '/add' and '/list'. Both api required POST method.
 
@@ -31,6 +30,8 @@ This application offer two http request api. '/add' and '/list'. Both api requir
 
 ## Front-end vue project:
 https://github.com/w233w/cs601-term-project
+
+#Getting start
 
 ## To run locally
 > Default using port 8080, make sure you are not running other serve on 8080
