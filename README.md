@@ -7,10 +7,10 @@ A part of MET_CS_601 Summer season term project.
 
 This project is about a surper simple spring-boot back-end app deployed on Azure. The app is also connected to Azure MySQL server used to collect data by using [MyBatis framework](https://mybatis.org/mybatis-3/index.html).
 
-## Front-end vue project:
+## Front-end vue term project:
 https://github.com/w233w/cs601-term-project
 
-## Server url
+## Spring server url
 https://spring-mybatis-1659598207454.azurewebsites.net/
 
 ## MySQL url:
