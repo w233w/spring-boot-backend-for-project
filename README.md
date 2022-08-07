@@ -31,7 +31,7 @@ This application offer two http request api. '/add' and '/list'. Both api requir
 ## Front-end vue project:
 https://github.com/w233w/cs601-term-project
 
-#Getting start
+# Getting start
 
 ## To run locally
 > Default using port 8080, make sure you are not running other serve on 8080
