@@ -12,6 +12,7 @@ https://spring-mybatis-1659598207454.azurewebsites.net/
 
 ## MySQL url:
 jdbc:mysql://my-db-term-project.mysql.database.azure.com:3306/project?serverTimezone=UTC&useSSL=false
+
 Both username and password are non-secret (not match any of my real password). Feel free to try.
 username: yang@my-db-term-project
 password: YY_123456
