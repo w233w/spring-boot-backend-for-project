@@ -58,5 +58,5 @@ CREATE TABLE `user_feedback` (
 ## To update & redeploy
 > Since the Azure server is belongs to mine, you may not able to run this command below. Except you can log in to my microsoft account.
 ```shell
-mvn package azure-webapp:deploy
+#mvn package azure-webapp:deploy
 ```
