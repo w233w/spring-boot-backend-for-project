@@ -39,7 +39,7 @@ This application offer two http request api. '/add' and '/list'. Both api requir
 mvn spring-boot:run
 ```
 
-## To run MySQL locally
+## To use local MySQL
 goto 'src/main/resources/application.yml'
 
 change url to 'jdbc:mysql://localhost:3306/project?', and don't forget to change the user name and password.
