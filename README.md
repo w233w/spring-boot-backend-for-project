@@ -7,6 +7,9 @@ A part of MET_CS_601 Summer season term project.
 
 This project is about a surper simple spring-boot back-end app deployed on Azure. The app is also connected to Azure MySQL server used to collect data by using [MyBatis framework](https://mybatis.org/mybatis-3/index.html).
 
+## Front-end vue project:
+https://github.com/w233w/cs601-term-project
+
 ## Server url
 https://spring-mybatis-1659598207454.azurewebsites.net/
 
@@ -27,9 +30,6 @@ This application offer two http request api. '/add' and '/list'. Both api requir
 '/add' is used to add data into MySQL which take a JSON of form input as input.
 
 '/list' is used to search database by input Json with only one key: 'username'. It will return JSON with all review made by that person.
-
-## Front-end vue project:
-https://github.com/w233w/cs601-term-project
 
 # Getting start
 
