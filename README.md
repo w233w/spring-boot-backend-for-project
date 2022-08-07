@@ -42,7 +42,7 @@ mvn spring-boot:run
 ## To run MySQL locally
 goto 'src/main/resources/application.yml'
 
-change url to 'jdbc:mysql://localhost:3306/project?' 
+change url to 'jdbc:mysql://localhost:3306/project?', and don't forget to change the user name and password.
 
 *'project' is the name of schema, please replace with your schema. Also, the schema required table `user_feedback`. Please create a table as following: 
 ```mysql
