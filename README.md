@@ -5,7 +5,7 @@
 
 A part of MET_CS_601 Summer season term project.
 
-This project is about a surper simple spring-boot back-end app deployed on Azure. The app is also connected to Azure MySQL server used to collect data by using MyBatis framework.
+This project is about a surper simple spring-boot back-end app deployed on Azure. The app is also connected to Azure MySQL server used to collect data by using [MyBatis framework](https://mybatis.org/mybatis-3/index.html).
 
 ## Server url
 https://spring-mybatis-1659598207454.azurewebsites.net/
