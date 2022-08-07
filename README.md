@@ -19,6 +19,9 @@ username: yang@my-db-term-project
 
 password: YY_123456
 
+![alt text](https://github.com/w233w/spring-boot-backend-for-project/blob/master/MySQL-sample.png?raw=true)
+
+
 ## Detail
 This application offer two http request api. '/add' and '/list'. Both api required POST method.
 
